@@ -31,7 +31,7 @@ public class PhoneApp {
 			}
 			dl.add(list);
 		}
-		List<PersonVo> personList = new ArrayList<PersonVo>();
+		ArrayList<PersonVo> personList = new ArrayList<PersonVo>();
 		PhoneDao phoneDao = new PhoneDao();
 		phoneDao.Drop();
 		phoneDao.DropSeq();
